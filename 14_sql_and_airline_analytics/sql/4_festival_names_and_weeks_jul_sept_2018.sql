@@ -1,0 +1,2 @@
+SELECT festival_name, extract(week from festival_date::date) as festival_week FROM festivals
+WHERE festival_city = 'Москва' and festivaL_date::date >= '2018-07-23' and festivaL_date::date <= '2018-09-30'
